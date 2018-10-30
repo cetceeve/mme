@@ -1,0 +1,55 @@
+#tasks {
+	width: 50vw;
+	margin: 5% auto;
+	padding: 0;
+	background-color: #FAFAFA;
+}
+
+#tasks h1 {
+	margin: 0;
+	padding: 2%;
+	color: rgb(156,0,75);
+	text-align: center;
+	border-bottom: 1vh solid rgb(156,0,75);
+}
+
+#task-list {
+	padding: 0%;
+	margin: 0;
+	list-style: none;	
+	background-color: #FFF;
+	border: 0.4vh solid #EEE;
+	border-radius: 0 0 5px 5px;
+}
+
+#task-list [name=new-task] {
+	margin: 0;
+	padding: 0;
+	width: 100%;	
+	border: none;
+	line-height: 2em;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+#task-list li {
+	display: block;
+	padding: 2%;
+	border-bottom: 0.25vh solid #EEE;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+#task-list li.completed {
+	text-decoration: line-through;
+	color: #DDD;
+}
+
+#task-list li:hover {
+	cursor: pointer;
+	background: rgba(156,0,75,0.25);
+}
+
+#task-list li:last-child {
+	border-bottom: 0vh solid #EEE;
+}
